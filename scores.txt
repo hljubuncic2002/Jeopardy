@@ -1,0 +1,5 @@
+Haris, 9000
+Haris, 9000
+Haris, 8800
+John, 1800
+Jeff, 3600
