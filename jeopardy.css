@@ -1,44 +1,77 @@
-game {
-    margin: auto;
-    background-color: aqua;
-    width: 1000px;
-    height: 800px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
+.game {
+  margin: auto;
+  background-color: royalblue;
+  width: 1000px;
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
+
+.jeopardy {
+  color: gold;
+  background-color: darkblue;
+  width: 96%;
+  text-align: center;
+  font-size: 24px;
+  text-shadow: 4px 3px 1px rgb(28, 27, 27) ;
+  border: solid black;
+  padding: -45%;
+}
+
+.scores {
+  background-color: black;
+  color: gold;
+  width: 96%;
+  display: flex;
+  justify-content: space-between;
+  border: solid black;
+}
+
+.userScore{
+  display: inline-block;
+  padding-left: 2.5%;
+  padding-right: 2.5%;
+}
+
 
 .grid {
-    align-items: center;
-    display: grid;
-    grid-template-columns: auto auto auto auto auto auto;
-    background-color: red;
+  align-items: center;
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto;
 }
 
-.gridBox {
-    background: darkblue;
-    border: solid pink;
-    text-align: center;
-    text-shadow: 4px 3px 1px rgb(28, 27, 27) ;
-    font-size: 24px;
-    font-weight: 800;
-    color:gold;
-    padding: 1.25em;
-
+.gridBox, .gridboxTop {
+  background: darkblue;
+  border: solid black;
+  text-align: center;
+  text-shadow: 4px 3px 1px rgb(28, 27, 27) ;
+  font-size: 24px;
+  font-weight: 800;
+  color:gold;
+  padding: 1.25em;
 }
+
 .gridBox:hover {
-    background-color: royalblue;
-    cursor: pointer;
+  background-color: royalblue;
+  cursor: pointer;
 
 }
-.button {
-    text-decoration: none;
-    padding: 0px;
 
+.button {
+  text-decoration: none;
+  padding: 0px;
 }
 
 .qCard {
-    height: 400px;
-    width: 250px;
+  margin: auto;
+  background: darkblue;
+  width: 1000px;
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: gold;
 }
