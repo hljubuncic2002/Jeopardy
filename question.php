@@ -20,7 +20,7 @@ session_start();
               $_SESSION['ansVal']=$_SESSION['questionsArr'][$_SESSION['qVal']][2];
             }
       ?>
-      <form name="answer" method="POST" action="ans.php">
+      <form name="answer" method="POST" action="ans.php" autocomplete="off">
         <input type="text" id="ansInput" name="ansInput">
         <input type="submit" value="Submit answer!">
       </form>
