@@ -1,1 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="index.css">
+  </head>
+  <body>
+    <div class="screen">
+      <header><h1> Jeopardy! </h1></<header>
+      <div class="content">
+        <div class="info">
+          <h2><strong> About PHP Jeopardy </strong></h2>
+          <ul>
+            <li><b> Idea: </b> A PHP implemnation of Jeopardy </li><br>
+            <li><b> Summary: </b> In this php implementation of the classic game show Jeopardy, 2-4 players can compete for high scoores, which are stored and can be looked up at any time.</li><br>
+            <li><b> Technologies & Techniques: </b> For our PHP take on Jeopardy, we of course used PHP. We used PHP sessions to handle score tracking and saving to a database and we also used PHP to implement the logic required. </li><br>
+            <li><b> Score Tracking: </b> Upon starting the game, the users are prompted to enter the number of users (2-4) and user names. These values get stored as session values. Through for loops, these values are brought into the main screen. Entering the right answers will increase your score, entering the wrong answers will decrease your score. </li><br>
+            <li><b> QA System: </b> In order to ask questions and validate answers, the questions, answers and answer values are stored in a CSV format in a txt file, similar to the matches in the nerdLuv assignment. This txt file gets broken down into a multidemensional array with a for loop, with the resulting array being stored in a Session array. The questions pull up the question, which is stored in index 0 of a line corresponding to the button value. The answer is in index 1 of the same line and the submitted answer is checked against this string. Depending on correctness, the corresponding value, stored in index 2 of the same line as the question and answer, is awarded or deducted by updating the session value and returning the user to the board. </li><br>
+            <li><b> Counter System: </b> But how does the program know who to award? Or when to end? This is handled by the counter system. The counter system counts the amount of turns. Based on an equation using modulo, the correct player has their score adjusted. After all 30 questions are answered, a PHP if statement is used to end the game and show the leaderboard. </li><br>
+          </ul>
+        </div>
 
+        <div class="links">
+          <a href="signup.html"><h2> Play now! </h2></a>
+          <img src="login.PNG">
+          <img src="board.PNG">
+          <img src="answer.PNG">
+        </div>
+        <div  class="team">
+          <h3><b> Team: </b></h3>
+            <p><b> Haris (Leader):</b> Using Session values for Player sign up and log in, Score tracking and Leaderboard, databases and PHP logic for Question/Answer, HTML forms, main board logic, Styling, Powerpoint</p>
+            <p><b> Celena:</b> Button logic on main board, Styling, Powerpoint </p>
+            <p><b> Kawsar:</b> Menu Screen, Powerpoint </p>
+          </div>
+
+      </div>
+    </div>
+  </body>
+</html>
