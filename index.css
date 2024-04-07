@@ -1,1 +1,76 @@
+.screen {
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  width: 900px;
+  height: auto;
+  margin: auto;
+  background: royalblue;
+  color: black;
 
+}
+
+header h1 {
+  text-align: center;
+  height: auto;
+  padding: 25px;
+  margin-top: 0px;
+  background-color: darkblue;
+  color: gold;
+}
+
+ul {
+  padding-top: 0px;
+  float: left;
+  font-size: 18px;
+  width: 60%;
+  margin: 2%;
+  columns: 1;
+  list-style-type: none;
+}
+
+.info h2 {
+  padding-left: 25%;
+}
+
+.info li {
+  line-height: 20px;
+}
+
+.team {
+  float: left;
+  border: 2px solid black;
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 18px;
+}
+
+.team h3 {
+  text-align: center;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  column-count: 1;
+  text-align: center;
+  margin-top: 15px;
+  height: inherit;
+}
+
+.links a {
+  text-decoration: none;
+  color: black;
+}
+
+
+.links a:visited {
+  display: flex;
+  flex-direction: column;
+  column-count: 1;
+  text-align: center;
+  margin-top: 15px;
+  text-decoration: none;
+  color: gold;
+}
