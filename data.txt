@@ -1,0 +1,30 @@
+The capital of Great Britain,london,200
+The last name of the first President of United States,washington,200
+This country borders the United States to the north,mexico,200
+This animal is a common house pet and is known for it's rivalry with cats,dog,200
+This computer language is a server-side scripting language and uses $ for variables,php,200
+This German automaker made a car with an insect derived nickname,volkswagen,200
+The capital of Germany,berlin,400
+The first name of a Frenchman who was known for being short,napoleon,400
+This is the largest country on Earth by size,russia,400
+This animal is a common house pet and is known for it's rivalry with dogs,cat,200
+This programming language is named after a snake,python,400
+This car is named after a horse and has a blue oval logo,mustang,400
+The capital of Mexico,mexico city,600
+The last name of the WW2 British prime minister,churchill,600
+This North American country speaks French and English,canada,600
+This animal is a bird that repeats what is told to it,parrot,600
+This computer language is named after a coffee-inspired programming language and was made in 10 days,javascript,600
+This carmaker is known for making a small roadster and a rotary powered sportscar,mazda,600
+The capital of Sweden,stockholm,800
+The last name of a South African is known for fighting apartheid,mandela,800
+This is the newest country on Earth and gained recognition in 2011,south sudan,800
+This animal is North America's only native marsupial,possum,800
+This programming language is 1:1 with machine code,assembly,800
+This carmaker was founded by a man named soichiro,honda,800
+The capital of Bosnia,sarajevo,1000
+This man was the longest serving leader of Indonesia,suharto,1000
+This is the newest country in Europe,kosovo,1000
+This animal is similar to a snake but lives in water,eel,1000
+This language has a dolphin for its logo,sql,1000
+This car is known for delivering tofu in a 90's show,ae86,1000
