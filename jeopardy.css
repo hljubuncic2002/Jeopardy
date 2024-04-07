@@ -1,4 +1,4 @@
-.game {
+game {
     margin: auto;
     background-color: aqua;
     width: 1000px;
@@ -10,26 +10,35 @@
 }
 
 .grid {
-  align-items: center;
-  display: grid;
-  grid-template-columns: auto auto auto auto auto auto;
-  background-color: green;
+    align-items: center;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    background-color: red;
 }
 
 .gridBox {
-  background: white;
-  border: solid pink;
-  text-align: center;
-  font-size: 24px;
-  padding: 1.25em;
+    background: darkblue;
+    border: solid pink;
+    text-align: center;
+    text-shadow: 4px 3px 1px rgb(28, 27, 27) ;
+    font-size: 24px;
+    font-weight: 800;
+    color:gold;
+    padding: 1.25em;
+
+}
+.gridBox:hover {
+    background-color: royalblue;
+    cursor: pointer;
 
 }
 .button {
-  text-decoration: none;
-  padding: 0px;
+    text-decoration: none;
+    padding: 0px;
+
 }
 
 .qCard {
-  height: 400px;
-  width: 250px;
+    height: 400px;
+    width: 250px;
 }
