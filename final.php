@@ -17,12 +17,13 @@
 
       array_push($finalScores,[$_SESSION['player'.$j],$_SESSION['score'.$j]]);
     }
-
-    array_multisort($finalScores, SORT_ASC);
+    $namesonlyFinal=array_column($finalScores,0);
+    $scoresonlyFinal=array_column($finalScores,1);
+    array_multisort($scoresonlyFinal, SORT_DESC, $scoresonlyFinal);
 
     for ($k=0; $k < $_SESSION['noUsers']; ++$k) {
 
-      echo ($k+1).' : '.$finalScores[$k][0].' scored '.$finalScores[$k][1].' points.'; ?> <br> <?php
+      echo ($k+1).' : '.$namesonlyFinal[$k].' scored '.$scoresonlyFinal[$k].' points.'; ?> <br> <?php
       $fileLine=$finalScores[$k][0].','.$finalScores[$k][1].PHP_EOL;
       file_put_contents('scores.txt',$fileLine, FILE_APPEND);
     }
